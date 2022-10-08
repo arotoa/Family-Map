@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/newEventInfo"/>
+
+    <ImageView
+        android:id="@+id/genderIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/gender_icon"
+        android:layout_margin="15dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_toRightOf="@id/genderIcon"
+        android:id="@+id/newEventInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:gravity="center_horizontal"
+        android:text="@string/event"
+        android:textAlignment="center"
+        android:textSize="9pt"
+        android:layout_toEndOf="@id/genderIcon" />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Family Map Client</string>
+
+    <string name="successful_login">Successful Login Attempt!!!</string>
+
+    <string name="server_port">Server Port</string>
+    <string name="server_host">Server Host</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="gender">Gender</string>
+
+    <string name="map_fragment_message">Welcome to my map</string>
+
+    <string name="event_person_name">My Name</string>
+    <string name="event">Please select \n an event</string>
+    <string name="event_group_title">Life Events</string>
+    <string name="person_group_title">Family</string>
+
+    <string name="life_story_lines">Life Story Lines</string>
+    <string name="life_story_description">SHOW LIFE STORY LINES</string>
+    <string name="family_tree_lines">Family Tree Lines</string>
+    <string name="family_tree_description">SHOW FAMILY TREE LINES</string>
+    <string name="spouse_lines">Spouse Lines</string>
+    <string name="spouse_description">SHOW SPOUSE LINES</string>
+    <string name="fathers_side">Father\'s Side</string>
+    <string name="fathers_side_description">FILTER BY FATHER\'S SIDE OF FAMILY</string>
+    <string name="mothers_side">Mother\'s Side</string>
+    <string name="mothers_side_description">FILTER BY MOTHER\'S SIDE OF FAMILY</string>
+    <string name="male_events">Male Events</string>
+    <string name="male_events_description">FILTER EVENTS BASED ON GENDER</string>
+    <string name="female_events">Female Events</string>
+    <string name="female_events_description">FILTER EVENTS BASED ON GENDER</string>
+    <string name="logout">Logout</string>
+    <string name="logout_description">RETURN TO LOGIN SCREEN</string>
+
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="gender_icon">Gender Icon</string>
+    <string name="event_icon">Event Icon</string>
+</resources>
